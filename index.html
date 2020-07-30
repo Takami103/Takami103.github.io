@@ -1,0 +1,40 @@
+<!DOCTYPE httml>
+<html>
+    
+<head lang="ja">
+        <meta charset="utf-8" />
+        <title>JQuery</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1 id="jquery-h1">JQuery</h1>
+        </header>
+        
+        <div>
+            <h2>コンピュータとじゃんけん</h2>
+            <button type="button" onclick ="janken(0)">グー</button>
+            <button type="button" onclick ="janken(1)">チョキ</button>
+            <button type="button" onclick ="janken(2)">パー</button>
+            
+            <div id="janken-result">
+                <h3>じゃんけん結果</h3>
+                <p id="janken-result-p"></p>
+            </div>
+            
+        </div>
+        
+        <div id="jquerty-div">
+            <h2 id="jquery-h2">JQueryとは</h2>
+            <p id="jquery-p1">JavaScriptの外部ライブラリです。</p>
+            <p id="jquery-p2">JQueryを利用することで、JavaScriptからHTMLを簡単に操作できるようになります。</p>
+        </div>
+        
+        <!--読み込む順番が重要。自分の作るjsでjqueryを使いたい場合はそれを先に書かなければならない。基本的にJQueryのような外部ライブラリは一番最初に読み込む必要がある。-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src = "js/janken.js"></script>
+        <script src ="js/jquerytest.js"></script>
+
+    </body>
+
+</html>
