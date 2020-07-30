@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+h2 {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+#back_to_top:hover {
+    font-size: 2em;
+}
+
+.mark2 {
+    background: linear-gradient(transparent 60%, #006400);
+}
+
+tr:first-child {
+        background-color: lightgoldenrodyellow;
+}
+
+th:first-child {
+        background-color: lightgoldenrodyellow;
+}

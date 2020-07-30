@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+a {
+    text-decoration: none;
+}
+
+#menubar > ul {
+        list-style: none;
+        padding-left: 0px;
+}
+
+#menubar > ul > li {
+    display: inline;
+    margin: 0 16px 0 0; /*時計回りに上、右、下、左*/
+    padding: 10px;
+    border: 3px dashed #666666;
+    border-radius: 20px; /*カドを丸める*/
+    border-color: #4169e1; 
+    background: #87ceeb; 
+}
+
+h2 {
+    background-color: pink;
+    text-align: center;
+}
+.mark1 {
+    font-size: 25px;
+    font-weight: 1000;
+    background: linear-gradient(transparent 40%, #da70d6);
+}
+
+.mark2 {
+    background: linear-gradient(transparent 60%, #006400);
+}
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color: black;
+}
+
+#back_to_top:hover {
+    color: blue;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+
+input[type="submit"] {
+    
+    border: 1px solid #0086F9;
+    border-radius: 4px;
+    
+    background-color:#afeeee; 
+    
+}
+
+input[type="reset"] {
+    
+    border: 1px solid #0086f9;
+    border-radius: 4px;
+    
+    background-color:#afeeee; 
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+nav ul li {
+    list-style-type: "☆";
+}
+
+h2 {
+    background-color: lightsalmon;
+    text-align: center;
+}
+
+.mark2 {
+    background: linear-gradient(transparent 60%, #006400);
+}
+
+#back_to_top:hover {
+    font-size: 2em;
+}
